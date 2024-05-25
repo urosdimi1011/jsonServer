@@ -1,9 +1,62 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "products": [
+    {
+        "id": 1,
+        "naziv": "Rush",
+        "opis": "Gucci Rush od Gucci je chypre voćni miris za žene. Gucci Rush je predstavljen 1999. Parfem je kreirao Michel Almairac.",
+        "kategorijeIds": [
+            1,
+            2
+        ],
+        "slika": {
+            "src": "rush.jpg",
+            "alt": "Rush"
+        },
+        "cena": {
+            "prePopusta": "100",
+            "trenutna": "89"
+        },
+        "brend": 1,
+        "besplatnaDostava": false
+    },
+    {
+        "id": 2,
+        "naziv": "Narciso",
+        "opis": "Originalna nota ćilibara se spaja sa jedinstveno snažnom vanilom u apsolutno bogatu teksturu. ",
+        "kategorijeIds": [
+            3,
+            4
+        ],
+        "cena": {
+            "prePopusta": "50",
+            "trenutna": "20"
+        },
+        "slika": {
+            "src": "narciso.jpg",
+            "alt": "Narciso"
+        },
+        "brend": 3,
+        "besplatnaDostava": true
+    },
+    {
+        "id": 3,
+        "naziv": "Eros",
+        "opis": "Versace je lansirao Eros - miris inspirisan i duboko povezan sa grčkom mitologijom.",
+        "kategorijeIds": [
+            1
+        ],
+        "slika": {
+            "src": "eros.jpg",
+            "alt": "Eros"
+        },
+        "cena": {
+            "prePopusta": "20",
+            "trenutna": "15"
+        },
+        "brend": 2,
+        "besplatnaDostava": false
+    }
+],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
